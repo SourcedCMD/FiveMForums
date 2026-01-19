@@ -42,7 +42,7 @@ export default function Navigation() {
               whileTap={{ scale: 0.95 }}
             >
               <Link href="/" className="text-2xl font-bold text-white">
-                LACRP
+                FF
               </Link>
             </motion.div>
             <div className="hidden md:flex space-x-6">
