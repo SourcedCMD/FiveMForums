@@ -1,6 +1,6 @@
 # Environment Variables Setup
 
-This file contains your environment variables for the LACRP Forums application.
+This file contains your environment variables for the FiveMForums application.
 
 ## Required Environment Variables
 
@@ -8,18 +8,18 @@ Create a `.env.local` file in the root directory with the following variables:
 
 ```env
 # Supabase Configuration
-NEXT_PUBLIC_SUPABASE_URL=https://dgulbgnksglcvuubdwwd.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRndWxiZ25rc2dsY3Z1dWJkd3dkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg3NTIxOTgsImV4cCI6MjA4NDMyODE5OH0.sLVWXYgC8kltfL6lggETk6Q_8tablekI88aealaDSiE
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRndWxiZ25rc2dsY3Z1dWJkd3dkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2ODc1MjE5OCwiZXhwIjoyMDg0MzI4MTk4fQ.UjoDYaFdqrNBsf36FVVHgDr_HA7vHDXzzRT44Rx0BdI
+NEXT_PUBLIC_SUPABASE_URL=https://hvybfcfckrocyvqtycoz.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh2eWJmY2Zja3JvY3l2cXR5Y296Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg4MzM0ODYsImV4cCI6MjA4NDQwOTQ4Nn0.1iLmGb6howZ-dQ0-h8p2Mv-ySM02vtZAWOrKnHaKBNM
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh2eWJmY2Zja3JvY3l2cXR5Y296Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2ODgzMzQ4NiwiZXhwIjoyMDg0NDA5NDg2fQ.b84SGor25zEPU_JKezbmuSvCyddDwSioPG9GgI0Jpxk
 
 # Discord OAuth Configuration
-DISCORD_CLIENT_ID=1462489272253943963
-DISCORD_CLIENT_SECRET=uLZCfiYSm-c-y8ykO8kLxc1DvC57j6zM
+DISCORD_CLIENT_ID=1462831889340567672
+DISCORD_CLIENT_SECRET=qc809hILmdWuIRgcWA8K571lhGnd6IPg
 NEXT_PUBLIC_DISCORD_REDIRECT_URI=http://localhost:3000/api/auth/callback/discord
 
 # Discord Webhook (for application notifications)
-# Webhook for sending application submissions to Discord
-DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1462601081249992735/MMECsJTs9kpiNkSh_zkWsLnTfQVvh5MWGI5T8D0LJDBc47DgTwdNBBBDUfkMa1hjQiXu
+# Add your Discord webhook URL here when ready
+# DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/YOUR_WEBHOOK_URL
 ```
 
 ## Important Notes
